@@ -1,0 +1,52 @@
+body{
+    background-color:#F6D8FA;
+}
+.partesuperior{
+    background-color: rgb(238, 173, 225);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+.logo{
+    justify-content: center;
+    align-items: center ;
+    padding: 30px;
+    padding-left: 45%;
+}
+.box{
+    justify-content: space-evenly;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+form{
+    font-family: arial;
+    border-color: #b735a4;
+    border-width: 10px;
+    border-right: auto;
+    border-style:double;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    min-width: 300px;
+    border: 2px solid rgb(rgb(255, 192, 247) );
+    border-radius: 20px;
+}
+form input:focus, form textarea:focus {
+    background-color: white;
+}
+form input[type_submit] {
+    background-color:#954da0 ;
+    color: white;
+    cursor: pointer;
+}
