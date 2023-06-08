@@ -14,31 +14,67 @@ body{
     padding: 30px;
     padding-left: 45%;
 }
-.partemeio{
-    margin: 20px;
-    border-style: double;
-    border-color: rgb(165, 12, 84);
-}
 h1{
     text-align: center;
     font-style: italic;
     font-size: 50px;
     color: #ca4595; 
 }
-p{
-    color: #b735a4;
-    font-size: 20px;
-    text-align: center;
-}
-.foto1, .foto2, .foto3{
+.textofran, .fotofran{
     margin: 50px;
+    display: inline-block
+}
+.textofran{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    color: #ca4595;
+    font-size: 20px;
+}
+.textoisa, .fotoisa{
+    display:inline-block;
+    margin: 50px;
+}
+.textoisa{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    color: #ca4595;
+    font-size: 20px;
 }
 
-.foto4, .foto5, .foto6{
+.textoleA, .fotoleA{
+    display: inline-block;
     margin: 50px;
 }
-.foto7, .foto8, .foto9{
+.textoleA{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    color: #ca4595;
+    font-size: 20px;
+}
+.textoleO, .fotoleO{
+    display: inline-block;
     margin: 50px;
+}
+.textoleO{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    color: #ca4595;
+    font-size: 20px;
+}
+.textomalena, .fotomalena{
+    display: inline-block;
+    margin:50px
+}
+.textomalena{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    color: #ca4595;
+    font-size: 20px;
 }
 .dividerFooter {
     width: 400px;

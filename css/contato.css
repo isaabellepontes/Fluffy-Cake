@@ -14,6 +14,16 @@ body{
     padding: 30px;
     padding-left: 45%;
 }
+h1{
+    text-align: center;
+    color:#ca4595 ;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    color: #b735a4;
+    font-size: 20px;
+}
 .box{
     justify-content: space-evenly;
 }
@@ -49,4 +59,35 @@ form input[type_submit] {
     background-color:#954da0 ;
     color: white;
     cursor: pointer;
+}
+.dividerFooter {
+    width: 400px;
+    height: 50px;
+    padding-top: 200px;
+    padding-bottom: 48px;
+    padding-left: 37%;
+}
+
+.footerGif {
+    position: relative;
+    background-color: rgb(238, 173, 225);
+    width: 1500px;
+    height: 80px;
+}
+
+.footerGif img {
+    align-items: center;
+    height: 200px;
+    position: absolute;
+    top: -85px;
+    left: 0;
+    z-index: 1;
+}
+
+.textFooter {
+    color: purple;
+    font-style: bold;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 8px;
 }
