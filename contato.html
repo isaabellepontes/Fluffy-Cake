@@ -4,41 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <title>Contato</title>
 </head>
 <body>
     <header> 
-        <div class="partesuperior">
-            <img class="logo" src="../fotos/LOGO.png" alt="Logo com o nome da confeitaria e uma batedeira">
+
+        <div class="parteSuperior"> 
+
+            <img class="backgroundImage" src="./fotos/nuvenzita.png">
+            <img class="logo" src="./fotos/LOGO.png" alt="Logo com o nome da confeitaria e uma batedeira">
+            <img class="dividerHead" src="./fotos/divider.png">
+        
         </div>
+
+            <div class="navBar">  
+                <nav>
+    
+                    <ul>
+                    <li class="home"><a href="./index.html">HOME</a></li>
+                    <li class="contato"><a href="./contato.html">CONTATO</a></li>
+                    <li class="produtos"><a href="./produtos.html">PRODUTOS</a></li>
+                    <li class="equipe"><a href="./equipe.html">EQUIPE</a></li>
+                    </ul>
+                
+                </nav>
+    
+            </div>
+        
     </header>
+
     <main>
         <h1> Entre em contato conosco </h1>
-        <p> Não achou o que queria? Entre em contato conosco, será um prazer te atender! Retornaremos o mais breve possivel!</p>
         <section class="box">
-            <form action=""> 
+            <form> 
                 <div class="contato">
                 <div>
                 <label for="Nome"> Nome:</label> 
-                <input type="text" name="Nome" id="Nome">
+                <input type="text" name="Nome" id="cNome">
                 </div>
                 <div>
                 <label for="Email"> Email:</label>   
-                <input type="email" name="Email" id="Email">
+                <input type="text" name="Email" id="cEmail">
                 </div>
                 <div>
                 <label for="Mensagem"> Mensagem:</label>
-                <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder=" Digite sua Mensagem"></textarea>
+                <textarea name="Mensagem" id="cMensagem" cols="30" rows="10" placeholder=" Digite sua Mensagem"></textarea>
                 </div>
-                <p> <input type="submit" value="Enviar"></p>
-            </div>
+                <button type="submit" onclick="validaContato()">Enviar</button>
+                </div>
+                <script src="./javascript/script.js"></script>
+            </form>
     </main>
+    <img class="dividerFooter" src="./fotos/divider.png">
     <footer>
 
         <div class="footerGif">
 
-            <img src="../fotos/bolofeliz.png">
+            <img src="./fotos/bolofeliz.png">
 
             <div class="textFooter">
             Av. Sete De Setembro, 123
@@ -47,15 +70,9 @@
             <br>
             (41) 91234-5678
             <br>
+            <img src="./fotos/icones.png">
             </div>
-
-            <!-- <div class="imagensIcons"> -->
-                <!-- <img class="instaIcon" src="../fotos/instaicon.png"> -->
-                <!-- <img class="twitterIcon" src="../fotos/twittericon.png"> -->
-            <!-- </div> -->
-
         </div>
-
     </footer>
 </body>
 </html>

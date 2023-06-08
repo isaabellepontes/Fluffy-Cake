@@ -4,35 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/produtos.css">
+    <link rel="stylesheet" href="./css/produtos.css">
     <title>Nossos Produto</title>
 </head>
 <body>
     <header> 
-        <div class="partesuperior">
-            <img class="logo" src="../fotos/LOGO.png" alt="Logo com o nome da confeitaria e uma batedeira">
+
+        <div class="parteSuperior"> 
+
+            <img class="backgroundImage" src="./fotos/nuvenzita.png">
+            <img class="logo" src="./fotos/LOGO.png" alt="Logo com o nome da confeitaria e uma batedeira">
+            <img class="dividerHead" src="./fotos/divider.png">
+        
         </div>
+
+            <div class="navBar">  
+                <nav>
+    
+                    <ul>
+                    <li class="home"><a href="./index.html">HOME</a></li>
+                    <li class="contato"><a href="./contato.html">CONTATO</a></li>
+                    <li class="produtos"><a href="./produtos.html">PRODUTOS</a></li>
+                    <li class="equipe"><a href="./equipe.html">EQUIPE</a></li>
+                    </ul>
+                
+                </nav>
+    
+            </div>
+        
     </header>
     <main>
         <div class="partemeio">
             <h1> Nossos Produtos</h1>
-            <p> Aqui na Fluffy Cake's trabalhamos com doces finos e tradicionas, bolos de festa, casamento, aniversario e reunioes, além de tortas e cestas de café da manhã. Conheça um pouco mais do nosso trabalho!</p>
-            <img class="foto1" src="../fotos/docesfesta1.png" alt=" Doces finos em apresentação na mesa">
-            <img class="foto2" src="../fotos/docesfesta.png" alt="Doces finos em apresentação">
-            <img class="foto3" src="../fotos/bolofesta.png" alt="Bolo com cobertura branca">
-            <img class="foto4" src="../fotos/chocolate.png" alt="Mini bolo de chocolate com brigadeiro">
-            <img class="foto5" src="../fotos/fatia2.png" alt="Fatia de bolo com chantilly">
-            <img class="foto6" src="../fotos/fatia.png" alt="Fatia de Brownie">
-            <img class="foto7" src="../fotos/cesta.png" alt="Cesta de café da manhã">
-            <img class="foto8" src="../fotos/mini.png" alt="Mini sonho com açucar de confeiteiro">
-            <img class="foto9" src="../fotos/bombom.png" alt="Bomba de creme com chantilly roxo">
+            <p> Conheça alguns dos nossos Trabalho!</p>
+            <img class="foto1" src="./fotos/docesfesta1.png" alt=" Doces finos em apresentação na mesa" onclick="docesFinos()">
+            <img class="foto2" src="./fotos/docesfesta.png" alt="Doces finos em apresentação" onclick="docesMesa()">
+            <img class="foto3" src="./fotos/bolofesta.png" alt="Bolo com cobertura branca" onclick="boloFesta()">
+            <img class="foto4" src="./fotos/chocolate.png" alt="Mini bolo de chocolate com brigadeiro" onclick="miniChocolate()">
+            <img class="foto5" src="./fotos/fatia2.png" alt="Fatia de bolo com chantilly" onclick="fatiaChantilly()">
+            <img class="foto6" src="./fotos/fatia.png" alt="Fatia de Brownie" onclick="docesBrownie()">
+            <img class="foto7" src="./fotos/cesta.png" alt="Cesta de café da manhã" onclick="cestaCafe()">
+            <img class="foto8" src="./fotos/mini.png" alt="Mini sonho com açucar de confeiteiro" onclick="miniSonho()">
     </div>
+    <script src="./javascript/produtos.js"></script>
     </main>
+    <img class="dividerFooter" src="./fotos/divider.png">
     <footer>
 
         <div class="footerGif">
 
-            <img src="../fotos/bolofeliz.png">
+            <img src="./fotos/bolofeliz.png">
 
             <div class="textFooter">
             Av. Sete De Setembro, 123
@@ -41,15 +62,9 @@
             <br>
             (41) 91234-5678
             <br>
+            <img src="./fotos/icones.png">
             </div>
-
-            <!-- <div class="imagensIcons"> -->
-                <!-- <img class="instaIcon" src="../fotos/instaicon.png"> -->
-                <!-- <img class="twitterIcon" src="../fotos/twittericon.png"> -->
-            <!-- </div> -->
-
         </div>
-
     </footer>
     
 </body>

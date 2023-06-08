@@ -1,30 +1,137 @@
 body{
     background-color:#F6D8FA;
 }
-.partesuperior{
-    background-color: rgb(238, 173, 225);
+.partesuperior {
+    position: relative;
+
+}
+
+.backgroundImage {
+    position: absolute;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#f2e2f4;
+    }
+
+
+.logo{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    height: 300px;
+    padding-top: 8px;
+    z-index: 1;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-left: 26%;
+}
+
+.dividerHead {
+    width: 400px;
+    height: 50px;
+    padding-top: 24%;
+    padding-bottom: 12px;
+    padding-left: 37%;
+    
+}
+
+.navBar {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 15px;
+    width: 500px;
+    height: 60px;
+    padding-left: 32%;
 }
-.logo{
-    justify-content: center;
-    align-items: center ;
-    padding: 30px;
-    padding-left: 45%;
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+li {
+    background-color: bisque;
+    text-align:  center;
+    width: 100px;
+    height: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    z-index: 2;
+    
+}
+
+.home {
+    align-items: center;
+    text-decoration: none;
+    margin: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.contato {
+    align-items: center;
+    margin: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.produtos { 
+    align-items: center;
+    margin: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.equipe {
+    align-items: center;
+    margin: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a {
+    cursor: pointer;
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li:hover {
+    box-shadow: 1px 1px 2px 2px #ffffff;
+}
+
+.slideshow {
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    padding-bottom: 65%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 h1{
-    text-align: center;
+    padding-left: 180px;
     color:#ca4595 ;
     font-size: 30px;
 }
-p{
-    text-align: center;
-    color: #b735a4;
-    font-size: 20px;
-}
 .box{
+    padding-right: 370px;
     justify-content: space-evenly;
 }
 section{
@@ -63,7 +170,7 @@ form input[type_submit] {
 .dividerFooter {
     width: 400px;
     height: 50px;
-    padding-top: 200px;
+    padding-top: 24px;
     padding-bottom: 48px;
     padding-left: 37%;
 }
@@ -90,4 +197,10 @@ form input[type_submit] {
     display: flex;
     padding-left: 15%;
     padding-top: 8px;
+}
+.textFooter img {
+    width: 110px;
+    height: 45px;
+    padding-left: 92%;
+    padding-top: 104px;
 }
